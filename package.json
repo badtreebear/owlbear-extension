@@ -1,0 +1,17 @@
+{
+  "name": "owlbear-mcp-extension",
+  "version": "1.0.0",
+  "description": "Owlbear Rodeo extension — bridge between the VTT and Claude MCP server",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@owlbear-rodeo/sdk": "^3.1.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+}

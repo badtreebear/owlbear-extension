@@ -1,0 +1,23 @@
+{
+  "name": "Claude DM Assistant",
+  "description": "Connects Claude AI to your Owlbear Rodeo session for combat automation",
+  "author": "badtreebear",
+  "version": "1.0.0",
+  "icon": "/icon.svg",
+  "action": {
+    "title": "Claude DM",
+    "icon": "/icon.svg",
+    "popover": {
+      "url": "/",
+      "height": 400,
+      "width": 300
+    }
+  },
+  "permissions": [
+    "OBR_SCENE_READ",
+    "OBR_SCENE_WRITE",
+    "OBR_PARTY_READ",
+    "OBR_PLAYER_READ",
+    "OBR_ROOM_READ"
+  ]
+}
